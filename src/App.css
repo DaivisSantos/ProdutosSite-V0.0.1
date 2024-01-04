@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+
+/* Reset CSS */
+
+/* Box sizing rule for all elements */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+dl,
+figure,
+blockquote,
+fieldset,
+legend {
+  margin: 0;
+}
+
+/* Remove default padding */
+ul,
+ol,
+dl,
+figure,
+blockquote {
+  padding: 0;
+}
+
+/* Remove list styles on ul, ol elements */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Set default font family and size */
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+}
+
+/* Remove outline on focused elements */
+a,
+button,
+input,
+select,
+textarea,
+:focus {
+  outline: none;
+}
+
+/* Set default line height */
+body, button, input, select, textarea {
+  line-height: 1.6;
+}
+
+/* Remove text-decoration for links */
+a {
+  text-decoration: none;
+}
+
+/* Remove default cursor for buttons */
+button {
+  cursor: pointer;
+}
+
+.SectionApp{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10em;
+}

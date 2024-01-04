@@ -1,0 +1,46 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 0 0 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menuNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Cor de fundo da barra de navegação */
+    padding: 10px; /* Espaçamento interno da barra de navegação */
+  }
+  
+  .menuNav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .menuNav li {
+    display: flex;
+    margin-right: 10px; /* Espaçamento entre os itens */
+    color: white; /* Cor do texto */
+  }
+  
+  .menuNav img {
+    margin-right: 10px; /* Espaçamento entre a imagem e o texto */
+    object-fit: cover;
+    width: 24px; /* Largura desejada para as imagens */
+    height: 24px; /* Altura desejada para as imagens */
+  }
+  
+
+.titulo{
+    font-size: 3.3em;
+    font-weight: 700;
+    margin-bottom: 0.6em;
+}
+

@@ -1,0 +1,24 @@
+.containerForm{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.containerForm .labelForm{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding-bottom: 0.3em;
+}
+
+.containerForm .inputForm{
+    padding: 0.7em 3em 0.7em 0.5em;
+    width: calc(90%);
+    border-radius: 25px;
+    border: none;
+    transition: 2s ease-in-out;
+}
+
+.containerForm .inputForm:hover{
+    width: calc(95%);
+    transition: 2s ease-in-out;
+} 
